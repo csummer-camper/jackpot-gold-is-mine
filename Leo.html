@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        body{
+            background-color:aqua;
+            font-family:arial,helvetica,sans-serif;
+            background-image: url(dog.jpg);
+            background-repeat:repeat;
+            background: size 25px;
+        }
+
+    h1{
+        color:#00008b;
+        font-size:42px;
+        text-align:center;
+    }
+    button{
+        background-color: red;
+        border:none;
+
+    }
+    button:hover{
+        background-color: darkred;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;}
+
+    .spin{
+            animation: spin 0.00000000000000000000000000000001s linear infinite;}
+    
+    .bounce{
+        animation: bounce 0.000000000000000000000000000000000000000000000000000000001ms infinite;
+    }
+    @keyframes bounce{
+        0%{
+            transform: translateY(0px)
+        }
+        50%{
+        transform: translateY(-500px);
+    }
+    100%{
+        transform: translate(20px); 
+    }
+    }
+.rainbow{
+    animation: rainbow 5ms infinite;
+
+    padding: 15px;
+
+    border: 0.000000001px solid black;
+
+    border-radius: 10px;
+
+    width: 250px;
+
+    text-align:center;
+
+}    
+     @keyframes spin{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+     }
+     @keyframes rainbow{
+        0%{
+            color:red;
+        }
+        25%{
+            color: orange;
+        }
+        50%{
+            color: yellowgreen;
+
+        }
+        75%{
+            color:green ;
+        }
+        100%{
+            color: aqua;
+        }
+     }
+    </style>
+<title> leo
+</title>
+</head>
+<body>
+    <header>
+    <h1>welcome to Amedeo's website </h1>
+    <h2>this is my website</h2>
+</header>
+<nav>
+<a href="https://www.google.com">google</a> |
+<a href="https://www.nationalgeographic.com">nationalgeographic</a>|
+<a href="https://www.kids.nationalgeographic.com">kids national geographic"></a>
+    
+</nav>
+<article>
+    <h2>About my favorite hobby </h2>
+
+    <p>
+    one of my favorite hobbies is learnning how to build websites
+    </p>
+</article>
+<section>
+    <h2>my goals</h2>
+    <ul>
+        <li>learn html</li>
+        <li>learn CSS</li>
+        <li>build my own website</li>
+    </ul>
+    <aside>
+        <h3>fun fact</h3>
+        <p>
+            the first website was built in 1991
+        </p>
+        <details>
+        <summary>click here for a secret</summary>
+        <p>
+        |congrat's you are learning how websites are built
+        </p>
+        </details>
+    </aside>
+<h1>welcome</h1>
+<h2>this is a website</h2>
+<br>
+<p>My name is Amedeo </p>
+<ol>
+<li>parott</li>
+<li>crow</li>
+<li>flamingo</li>
+<li>ostrich</li>
+</ol>
+<table border="20">
+<tr>
+<th>Animals</th>
+<th>rating</th>
+</tr>
+<tr>
+    <td>cat</td>
+    <td>9/10</td> 
+</tr>
+<tr>
+<td>dog</td>
+<td>10/10</td>
+</tr>
+<tr>
+<td>panda</td>
+<td>11/10</td>
+</tr>
+<tr>
+<td>frog</td>
+<td>8/10</td>
+</tr>
+<tr>
+<td>crocodile</td>
+<td>7/10</td>
+</table>
+<button>
+    Click here!
+</button>
+<blockquote>
+    Animals are the best
+</blockquote>
+<cite>Amedeo </cite>
+<p>Amedeo said <q> Animals are the best</q></p>
+<p>i am learning <abbr title =hypertex markup language>HTML</abbr></p>
+    <figure>
+        <img
+        class="spin"
+        src="dog.jpg"
+        alt="a dog"
+        width="400"
+        >
+    <figcaption>
+        this is a golden retriever
+    </figcaption>
+</figure>
+<h3 class="bounce"> 
+    Animals are the best
+</h3>
+<div class="rainbow">
+    "hello"
+</div>
+<a href="https://www.nationalgeographic.com">
+    visit nationalgeographic
+
+</a>
+<h2>my favorite song</h2>
+<audio controls>
+    <source src= "duck.mp3">
+    </audio>
+<audio controls>
+    <source src="duck2.mp3">       
+</audio>
+<h2>my favorite video</h2>
+<video controls width="500">
+    <source src="The Duck Song 2.mp4"  type="video/mp4">         
+    Not Loading 
+</video>
+<embed
+src="https://www.wikipedia.org"
+width="50"
+length="300"
+>
+<footer>
+    <p>created by a creative summer camper in 2026</p>
+</footer>
+</body>
+</html>
